@@ -1,71 +1,40 @@
-# Will You Be My Valentine? 💌
+# Reclama tu Galleta 🍪
 
-This project is designed to be an interactive webpage to ask someone to be your Valentine. Please use this code as inspiration and avoid simply copying it without understanding or giving credit.
+¡Una página web divertida para reclamar tu galleta virtual!  
+Al hacer clic en el botón, la galleta animará y se descargará automáticamente la imagen en tu computadora.
 
----
-## **🚀 Respect Open-Source**
-I built this for **fun & learning**. If you fork or modify it:  
-✔ **Use it for creativity, personal projects, or learning**  
-✔ **Give proper credit when using it in public**  
-✔ **Respect the original creator’s work**  
-❌ **DO NOT try to profit from free content**  
+## ¿Cómo usar?
 
- **If I find people selling this project, I will take action to prevent unauthorized use.**  
- **Selling or monetizing this project is strictly NOT allowed.**  
+1. Descarga o clona este repositorio.
+2. Asegúrate de que los archivos `index.html`, `styles.css` y `galleta.png` estén en la misma carpeta.
+3. Abre el archivo `index.html` en tu navegador favorito.
+4. Haz clic en **"Reclamar galleta"** para ver la animación y descargar la imagen.
 
+## Estructura de archivos
 
-## How It Works 
+```
+/tu-carpeta/
+│
+├── index.html
+├── styles.css
+├── galleta.png
+└── README.md
+```
 
-This project consists of a simple webpage with a "Yes" and "No" button. When the user clicks the "No" button, the button text changes to a series of  messages, and the "Yes" button grows larger. If the user clicks the "Yes" button, they are redirected to a new page (`yes_page.html`).
+- `index.html`: Página principal.
+- `styles.css`: Estilos y animaciones.
+- `galleta.png`: Imagen de la galleta que se muestra y se descarga.
+- `README.md`: Este archivo de ayuda.
 
-### Features:
-- **Interactive Buttons**: The "No" button cycles through , while the "Yes" button grows in size.
-- **Responsive Design**: The webpage is designed to work on all screen sizes.
+## Personalización
 
----
+- Puedes cambiar la imagen de la galleta reemplazando `galleta.png` por otra imagen con el mismo nombre.
+- Si quieres modificar la animación o los colores, edita el archivo `styles.css`.
 
-## How to Use 
+## Créditos
 
-1. **Download the Files**:
-   - Clone this repository or download the `index.html`, `styles.css`,`yes_style.css`,`yes_page.html` and `script.js` files.
-
-2. **Open the Project**:
-   - Open the `index.html` file in your web browser.
-
-
----
-
-## A Note on Code Usage 
-
-While I am happy to share this project, I encourage you to use it as inspiration.
-If you use this code as a base for your own project, please give credit where it's due. A simple shoutout or link back to this repository is appreciated!
-
+Hecho con ❤️ para quienes aman las galletas.
 
 ---
 
-## Code Overview 
-
-### Files:
-
-- `index.html`: The main HTML file that structures the webpage.
-- `styles.css`: The CSS file that styles the webpage.
-- `script.js`: The JavaScript file that handles the button interactions.
-- `yes_page.html`: The yes page that sturctures the webpage.
-- `yes_style.css`: The css file that styles the yes webpage.
-
-
-
-### Key Functions:
-
-- `handleNoClick()`: Changes the "No" button text and increases the size of the "Yes" button.
-- `handleYesClick()`: Redirects the user to `yes_page.html`.
-
----
-
-## License 📄
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
----
-
-Enjoy 💖
+¿Tienes dudas o quieres mejorar la página? ¡No dudes en contribuir! 
